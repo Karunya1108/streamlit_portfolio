@@ -2,10 +2,11 @@
 import streamlit as st
 
 # Page config
-st.set_page_config(page_title="Karunya V")
+st.set_page_config(page_title="Karunya", page_icon="👩‍💻", layout="wide")
+
 
 # Header
-st.set_page_config(page_title="Karunya", page_icon="👩‍💻", layout="wide")
+st.title("KARUNYA V")
 st.subheader("Software Engineer | UI/UX | Frontend Development")
 st.write("📍 Madipakkam, Chennai - 91")
 st.write("📞 8838734348 | 📧 [karunyavenkatachalam11@gmail.com](mailto:karunyavenkatachalam11@gmail.com)")
