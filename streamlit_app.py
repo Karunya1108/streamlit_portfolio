@@ -2,13 +2,13 @@
 import streamlit as st
 
 # Page config
-st.set_page_config(page_title="Karunya V - Portfolio", page_icon=":briefcase:", layout="wide")
+st.set_page_config(page_title="Karunya V")
 
 # Header
 st.title("KARUNYA V")
 st.subheader("Aspiring Software Engineer | UI/UX | Full Stack Development | Automation")
 st.write("📍 Madipakkam, Chennai - 91")
-st.write("📞 8838734348 | 📧 [karunyavenkatachalamll@gmail.com](mailto:karunyavenkatachalamll@gmail.com)")
+st.write("📞 8838734348 | 📧 [karunyavenkatachalam11@gmail.com](mailto:karunyavenkatachalam11@gmail.com)")
 
 st.markdown("---")
 
@@ -75,12 +75,4 @@ st.write("""
 - 3 months online internship on UI/UX (Mitbots)  
 """)
 
-st.markdown("---")
-
-# Achievements
-st.header("🏆 Achievements")
-st.write("""
-- **Special Jury Award at Innothon'24** for *Beat Aware*, the innovative heart attack detection & emergency response app,  
-  conducted by KCG College of Technology (September 2024).  
-""")
 
