@@ -4,7 +4,6 @@ import streamlit as st
 # Page config
 st.set_page_config(page_title="Karunya", page_icon="👩‍💻", layout="wide")
 
-
 # Header
 st.title("KARUNYA V")
 st.subheader("Software Engineer | UI/UX | Frontend Development")
@@ -38,6 +37,7 @@ skills = [
 for skill in skills:
     st.write(f"- {skill}")
 
+st.markdown("---")
 
 # Projects
 st.header("💻 Projects")
@@ -48,15 +48,26 @@ st.write("""
 - Integrated **Twilio API** for emergency alerts with live location.  
 - Designed interactive UI with HTML, CSS, JS.  
 - AI-driven predictive analysis with lifestyle recommendations.  
+👉 [GitHub Repository](https://github.com/Karunya1108/Beataware.git)
+""")
+
+st.subheader("Dhanam - Smart Food Management App")
+st.write("""
+- Built with Python, HTML, CSS, JS + MySQL backend.  
+- Real-time location tracking for food pickup/distribution.  
+- RESTful APIs + secure authentication.  
+- Connects donors with NGOs/old-age homes to reduce food waste.  
+👉 [GitHub Repository](https://github.com/Karunya1108/Dhanam.git)
+""")
 
 st.markdown("---")
 
 # Education
 st.header("🎓 Education")
 st.write("""
-- **B.E. Computer Science and Engineering** (Ongoing) — KCG College of Technology, Chennai — 83.4%  
-- **Higher Secondary** — Sairam Vidyalaya — 90% (2022)  
-- **SSLC** — Sairam Vidyalaya — 85% (2020)  
+- **B.E. Computer Science and Engineering** (Ongoing) - KCG College of Technology, Chennai - 83.4%  
+- **Higher Secondary** - Sairam Vidyalaya - 90% (2022)  
+- **SSLC** - Sairam Vidyalaya - 85% (2020)  
 """)
 
 st.markdown("---")
@@ -70,4 +81,7 @@ st.write("""
 - 3 months online internship on UI/UX (Mitbots)  
 """)
 
+st.markdown("---")
 
+# Footer
+st.write("© 2025 Karunya")
