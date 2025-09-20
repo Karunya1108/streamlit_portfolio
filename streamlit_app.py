@@ -27,12 +27,17 @@ st.markdown("---")
 # Skills
 st.header("🛠 Skills")
 skills = [
-    "UI/UX", "Teamwork", "MS Office", "Communication skills",
-    "Problem-solving skills", "Basic programming (C, Python)"
+    "UI/UX",
+    "Teamwork",
+    "MS Office",
+    "Communication skills",
+    "Problem-solving skills",
+    "Basic programming (C, Python)"
 ]
-st.write(", ".join(skills))
 
-st.markdown("---")
+for skill in skills:
+    st.write(f"- {skill}")
+
 
 # Projects
 st.header("💻 Projects")
@@ -43,17 +48,6 @@ st.write("""
 - Integrated **Twilio API** for emergency alerts with live location.  
 - Designed interactive UI with HTML, CSS, JS.  
 - AI-driven predictive analysis with lifestyle recommendations.  
-👉 [GitHub Repository](https://github.com/Karunya1108/Beataware.git)
-""")
-
-st.subheader("Dhanam - Smart Food Management App")
-st.write("""
-- Built with Python, HTML, CSS, JS + MySQL backend.  
-- Real-time location tracking for food pickup/distribution.  
-- RESTful APIs + secure authentication.  
-- Connects donors with NGOs/old-age homes to reduce food waste.  
-👉 [GitHub Repository](https://github.com/Karunya1108/Dhanam.git)
-""")
 
 st.markdown("---")
 
