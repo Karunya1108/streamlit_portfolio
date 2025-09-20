@@ -76,4 +76,12 @@ st.write("""
 st.markdown("---")
 
 # Footer
-st.write("© 2025 Karunya")
+st.markdown(
+    """
+    <div style='text-align: center; padding: 20px;'>
+        © 2025 Karunya
+    </div>
+    """,
+    unsafe_allow_html=True
+)
+
