@@ -44,21 +44,13 @@ st.header("💻 Projects")
 
 st.subheader("Beatawre - AI Powered Heart Attack Prediction and Detection App")
 st.write("""
-- Developed a heart attack detection and prediction system using Python and ML models.  
-- Integrated **Twilio API** for emergency alerts with live location.  
-- Designed interactive UI with HTML, CSS, JS.  
-- AI-driven predictive analysis with lifestyle recommendations.  
-👉 [GitHub Repository](https://github.com/Karunya1108/Beataware.git)
+- Developed a **cross-platform mobile app** using **React Native** for real-time heart attack detection and prediction.  
+- Implemented clean and responsive UI with **Tailwind CSS**, ensuring accessibility and smooth user experience across devices.  
+- Integrated Python-based **machine learning models** via APIs to analyze health data (ECG, heart rate, oxygen levels).  
+- Used **Twilio API** for instant emergency alerts (to hospitals, relatives, ambulance services) with live location sharing.  
+- Added AI-driven predictive analysis to provide early warnings, lifestyle suggestions, and preventive medical insights.  
 """)
-
-st.subheader("Dhanam - Smart Food Management App")
-st.write("""
-- Built with Python, HTML, CSS, JS + MySQL backend.  
-- Real-time location tracking for food pickup/distribution.  
-- RESTful APIs + secure authentication.  
-- Connects donors with NGOs/old-age homes to reduce food waste.  
-👉 [GitHub Repository](https://github.com/Karunya1108/Dhanam.git)
-""")
+  
 
 st.markdown("---")
 
